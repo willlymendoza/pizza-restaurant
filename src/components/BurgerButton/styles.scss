@@ -1,0 +1,11 @@
+@import "../../assets/sass/config";
+
+.responsive-menu {
+  cursor: pointer;
+  display: none;
+
+  i {
+    color: $white;
+    font-size: 25px;
+  }
+}

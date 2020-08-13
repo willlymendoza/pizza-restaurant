@@ -1,0 +1,10 @@
+@import "../../assets/sass/config";
+
+.logo {
+  display: flex;
+  align-items: center;
+  i {
+    color: $primary;
+    font-size: 60px;
+  }
+}

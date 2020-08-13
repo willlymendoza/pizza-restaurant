@@ -1,0 +1,13 @@
+@import "../../assets/sass/config";
+
+.nav-bar-phone {
+  display: flex;
+  justify-content: flex-end;
+  span {
+    color: $white;
+    text-transform: uppercase;
+    border: 1px solid $primary;
+    padding: 15px;
+    display: block;
+  }
+}

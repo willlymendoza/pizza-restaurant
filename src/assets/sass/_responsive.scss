@@ -1,0 +1,166 @@
+@include media-xsm {
+  .best-sellers {
+    &-content {
+      display: flex !important;
+      flex-direction: column;
+    }
+  }
+
+  .post-img {
+    margin-bottom: 0 !important;
+  }
+}
+
+@include media-sm {
+  .nav-bar {
+    &-content {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    &-phone {
+      grid-area: 2 / 1 / 3 / 3 !important;
+      margin-top: 10px;
+      align-self: flex-start !important;
+    }
+  }
+
+  .responsive-menu {
+    grid-area: 1 / 2 / 2 / 3 !important;
+  }
+
+  .story-content {
+    flex-wrap: wrap !important;
+
+    p {
+      width: 100% !important;
+      margin-bottom: 20px !important;
+    }
+  }
+
+  .best-sellers-content {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .about-images,
+  .about-content {
+    flex-wrap: wrap;
+
+    img,
+    p {
+      width: 100% !important;
+      margin-bottom: 20px;
+    }
+  }
+
+  .post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px !important;
+
+    span {
+      margin-bottom: 10px !important;
+    }
+
+    &-separator {
+      display: none !important;
+    }
+  }
+
+  .contact-form-item {
+    width: 100% !important;
+  }
+
+  .menu-nav-bar {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@include media-md {
+  .story-img-left,
+  .story-img-right {
+    display: none;
+  }
+
+  .best-sellers-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .menu-content {
+    flex-wrap: wrap;
+
+    .menu-card {
+      width: 100% !important;
+    }
+  }
+
+  .blog-content {
+    flex-wrap: wrap;
+  }
+
+  .posts,
+  .side-bar {
+    flex: auto;
+  }
+
+  .side-bar-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@include media-lg {
+  .nav-bar {
+    &-menu {
+      opacity: 0;
+      grid-area: 2 / 1 / 3 / -1;
+      display: flex;
+      flex-direction: column;
+      background: $white;
+      margin-top: 10px;
+      z-index: 10;
+      @include transition-ease;
+
+      a {
+        color: $secondary;
+        padding: 15px;
+        border-bottom: 1px solid gray;
+      }
+
+      &.open {
+        opacity: 1;
+      }
+    }
+
+    &-phone {
+      span {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .responsive-menu {
+    text-align: right;
+    display: block !important;
+  }
+
+  .post-img {
+    height: 250px !important;
+  }
+}
+
+@include media-xl {
+  .nav-bar-content,
+  .story-container,
+  .best-sellers-content,
+  .menu-content,
+  .about-images,
+  .about-content,
+  .blog-content,
+  .contact-form {
+    padding: 0 20px !important;
+  }
+}

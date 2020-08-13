@@ -1,0 +1,17 @@
+@import "../../../assets/sass/config";
+
+.header-title {
+  height: calc(100% - 120px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+
+  h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+}

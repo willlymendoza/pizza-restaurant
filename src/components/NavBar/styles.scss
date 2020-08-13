@@ -1,0 +1,13 @@
+.nav-bar {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 120px;
+
+  &-content {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr minmax(50%, 1fr) 1fr;
+    align-items: center;
+  }
+}

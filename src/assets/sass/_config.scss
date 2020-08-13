@@ -1,0 +1,39 @@
+$primary: #ef0031;
+$secondary: #333;
+$white: #fffaff;
+$orange: #f49d37;
+$input: #f5f5f5;
+
+@mixin transition-ease {
+  transition: all 0.7s ease;
+}
+
+@mixin media-xsm {
+  @media screen and (max-width: 400px) {
+    @content;
+  }
+}
+
+@mixin media-sm {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (max-width: 995px) {
+    @content;
+  }
+}
+
+@mixin media-xl {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}

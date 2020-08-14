@@ -10,7 +10,7 @@ const Post = ({ data }) => {
       </div>
       <h2 className="post-title">{data.title}</h2>
       <div className="post-tags">
-        <span>{data.autor}</span>
+        <span>{data.author}</span>
         <span className="post-tags-separator"></span>
         <span>{data.category}</span>
         <span className="post-tags-separator"></span>

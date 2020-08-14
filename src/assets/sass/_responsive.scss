@@ -53,9 +53,9 @@
   }
 
   .post-tags {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
     margin-bottom: 15px !important;
 
     span {
@@ -97,18 +97,18 @@
   }
 
   .blog-content {
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
   }
 
   .posts,
   .side-bar {
-    flex: auto;
+    flex: auto !important;
   }
 
   .side-bar-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
   }
 }
 

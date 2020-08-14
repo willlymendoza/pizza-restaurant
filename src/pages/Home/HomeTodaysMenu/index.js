@@ -64,7 +64,7 @@ const menuData = [
 
 const HomeTodaysMenu = () => {
   return (
-    <section className="todays-menu">
+    <section className="todays-menu section">
       <SectionTitle text="today's menu" />
 
       <div className="menu-content">

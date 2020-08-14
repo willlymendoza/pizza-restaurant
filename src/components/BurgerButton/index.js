@@ -3,8 +3,8 @@ import "./styles.scss";
 
 const BurgerButton = ({ handleMenuAction }) => {
   return (
-    <div className="responsive-menu" onClick={handleMenuAction}>
-      <i className="fas fa-bars"></i>
+    <div className="responsive-menu">
+      <i className="fas fa-bars" onClick={handleMenuAction}></i>
     </div>
   );
 };

@@ -1,13 +1,18 @@
 import React from "react";
 import "./styles.scss";
 
-const HeaderTitle = () => {
+const HeaderTitle = ({ data }) => {
   return (
     <div className="header-title">
-      <h1>pizza & pasta</h1>
-      <a className="btn" href="#">
-        see today's menu
-      </a>
+      <h1>{data.title}</h1>
+
+      {data.menu ? (
+        <a className="btn" href="#">
+          see today's menu
+        </a>
+      ) : (
+        ""
+      )}
     </div>
   );
 };

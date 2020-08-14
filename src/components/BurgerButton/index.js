@@ -1,9 +1,9 @@
 import React from "react";
 import "./styles.scss";
 
-const BurgerButton = () => {
+const BurgerButton = ({ handleMenuAction }) => {
   return (
-    <div className="responsive-menu">
+    <div className="responsive-menu" onClick={handleMenuAction}>
       <i className="fas fa-bars"></i>
     </div>
   );

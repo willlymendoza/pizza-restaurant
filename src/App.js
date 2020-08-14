@@ -6,6 +6,7 @@ import Home from "pages/Home";
 import Error404 from "components/Error404";
 import "./App.scss";
 import Footer from "components/Footer";
+import About from "pages/About";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Main>
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
 
           <Route path="*" component={Error404}></Route>
         </Switch>

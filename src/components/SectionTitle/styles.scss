@@ -1,0 +1,23 @@
+@import "../../assets/sass/config";
+
+.section-title {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+  i {
+    font-size: 40px;
+    color: $primary;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: center;
+  }
+}

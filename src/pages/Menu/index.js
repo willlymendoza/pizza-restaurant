@@ -3,12 +3,17 @@ import "./styles.scss";
 import SectionTitle from "components/SectionTitle";
 import MenuCard from "components/MenuCard";
 import MenuNavBarItem from "./MenuNavBarItem";
+import pizzaImg from "assets/img/menu-pizza.jpg";
+import pastaImg from "assets/img/menu-pasta.jpg";
+import saladImg from "assets/img/menu-salad.jpg";
+import dessertImg from "assets/img/menu-dessert.jpg";
 
 const menuAllData = [
   {
     id: 1,
     title: "Pizza 1",
     category: "pizza",
+    img: pizzaImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
@@ -17,6 +22,7 @@ const menuAllData = [
     id: 2,
     title: "Pizza 2",
     category: "pizza",
+    img: pizzaImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
@@ -25,6 +31,7 @@ const menuAllData = [
     id: 3,
     title: "Pizza 3",
     category: "pizza",
+    img: pizzaImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
@@ -33,6 +40,7 @@ const menuAllData = [
     id: 4,
     title: "Pizza 4",
     category: "pizza",
+    img: pizzaImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
@@ -41,6 +49,7 @@ const menuAllData = [
     id: 5,
     title: "Pasta 1",
     category: "pasta",
+    img: pastaImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
@@ -49,6 +58,7 @@ const menuAllData = [
     id: 6,
     title: "Pasta 2",
     category: "pasta",
+    img: pastaImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
@@ -57,6 +67,7 @@ const menuAllData = [
     id: 7,
     title: "Pasta 3",
     category: "pasta",
+    img: pastaImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
@@ -65,6 +76,7 @@ const menuAllData = [
     id: 8,
     title: "Pasta 4",
     category: "pasta",
+    img: pastaImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
@@ -73,6 +85,7 @@ const menuAllData = [
     id: 9,
     title: "Salad 1",
     category: "salads",
+    img: saladImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
@@ -81,6 +94,7 @@ const menuAllData = [
     id: 10,
     title: "Salad 2",
     category: "salads",
+    img: saladImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
@@ -89,6 +103,7 @@ const menuAllData = [
     id: 11,
     title: "Salad 3",
     category: "salads",
+    img: saladImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
@@ -97,38 +112,43 @@ const menuAllData = [
     id: 12,
     title: "Salad 4",
     category: "salads",
+    img: saladImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
   },
   {
     id: 13,
-    title: "Desert 1",
-    category: "deserts",
+    title: "Dessert 1",
+    category: "desserts",
+    img: dessertImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
   },
   {
     id: 14,
-    title: "Desert 2",
-    category: "deserts",
+    title: "Dessert 2",
+    category: "desserts",
+    img: dessertImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
   },
   {
     id: 15,
-    title: "Desert 3",
-    category: "deserts",
+    title: "Dessert 3",
+    category: "desserts",
+    img: dessertImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
   },
   {
     id: 16,
-    title: "Desert 4",
-    category: "deserts",
+    title: "Dessert 4",
+    category: "desserts",
+    img: dessertImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae",
     price: 12,
@@ -140,7 +160,7 @@ const navItems = [
   { id: 2, name: "pizza" },
   { id: 3, name: "pasta" },
   { id: 4, name: "salads" },
-  { id: 5, name: "deserts" },
+  { id: 5, name: "desserts" },
 ];
 
 const Menu = () => {

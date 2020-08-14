@@ -1,0 +1,30 @@
+@import "../../assets/sass/config";
+
+.pizza-card {
+  border-radius: 10px;
+  overflow: hidden;
+  color: $white;
+  text-align: center;
+
+  img {
+    width: 100%;
+  }
+
+  &-title {
+    font-size: 25px;
+    margin: 20px 0;
+  }
+
+  &-price {
+    font-size: 35px;
+    margin: 20px 0;
+  }
+
+  .btn {
+    cursor: pointer;
+
+    &:hover {
+      background: none !important;
+    }
+  }
+}

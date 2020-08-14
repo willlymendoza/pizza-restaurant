@@ -9,6 +9,7 @@ import Footer from "components/Footer";
 import About from "pages/About";
 import Menu from "pages/Menu";
 import Blog from "pages/Blog";
+import Contact from "pages/Contact";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/menu" component={Menu} />
           <Route path="/blog" component={Blog} />
+          <Route path="/contact" component={Contact} />
 
           <Route path="*" component={Error404}></Route>
         </Switch>

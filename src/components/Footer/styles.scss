@@ -1,0 +1,56 @@
+@import "../../assets/sass/config";
+
+.footer {
+  background: linear-gradient(0deg, rgba(8, 8, 8, 0.7) 0%, rgba(8, 8, 8, 1)),
+    url("../../assets/img/footer.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+
+  &-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+    .section-title {
+      i {
+        font-size: 60px;
+      }
+    }
+  }
+
+  &-item {
+    h2 {
+      color: $orange;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: $white;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    &-socials {
+      margin-bottom: 30px;
+      i {
+        font-size: 30px;
+        margin: 0 10px;
+        color: $white;
+        cursor: pointer;
+        @include transition-ease;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    color: gray;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

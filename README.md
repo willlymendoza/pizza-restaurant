@@ -1,6 +1,6 @@
 # Pizza Restaurant Page
 
-## [Demo]('https://pizzarestaurant.netlify.com')
+## [Demo](https://pizzarestaurant.netlify.com)
 
 ## Made with:
 

@@ -19,10 +19,10 @@ function App() {
       <Main>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/menu" component={Menu} />
-          <Route path="/blog" component={Blog} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/about" exact component={About} />
+          <Route path="/menu" exact component={Menu} />
+          <Route path="/blog" exact component={Blog} />
+          <Route path="/contact" exact component={Contact} />
 
           <Route path="*" component={Error404}></Route>
         </Switch>

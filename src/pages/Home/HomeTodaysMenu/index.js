@@ -6,7 +6,6 @@ import pizzaImg from "assets/img/menu-pizza.jpg";
 import pastaImg from "assets/img/menu-pasta.jpg";
 import saladImg from "assets/img/menu-salad.jpg";
 import dessertImg from "assets/img/menu-dessert.jpg";
-import { NavLink, Link } from "react-router-dom";
 
 const menuData = [
   {
@@ -87,7 +86,7 @@ const HomeTodaysMenu = () => {
       </div>
 
       <div className="todays-menu-footer">
-        <a className="btn" href="">
+        <a className="btn" href="/">
           see our menu
         </a>
       </div>

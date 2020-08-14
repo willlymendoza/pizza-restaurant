@@ -7,7 +7,7 @@ const HeaderTitle = ({ data }) => {
       <h1>{data.title}</h1>
 
       {data.menu ? (
-        <a className="btn" href="#">
+        <a className="btn" href="/">
           see today's menu
         </a>
       ) : (

@@ -1,0 +1,17 @@
+@import "../../../assets/sass/config";
+
+.todays-menu {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &-footer {
+    text-align: center;
+  }
+}
+
+.menu-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}

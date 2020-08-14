@@ -73,8 +73,8 @@
 
   .menu-nav-bar {
     margin: 0 20px;
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
 }
 

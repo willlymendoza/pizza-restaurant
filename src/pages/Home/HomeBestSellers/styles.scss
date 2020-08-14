@@ -1,0 +1,23 @@
+@import "../../../assets/sass/config";
+
+.best-sellers {
+  background: linear-gradient(0deg, rgba(8, 8, 8, 0.1) 0%, rgba(8, 8, 8, 1)),
+    url("../../../assets/img/pizza-chef.jpg");
+
+  background-position: center;
+  background-size: cover;
+
+  .section-title {
+    h1 {
+      color: $white;
+    }
+  }
+
+  &-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+  }
+}

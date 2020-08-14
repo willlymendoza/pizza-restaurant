@@ -1,0 +1,42 @@
+@import "../../../assets/sass/config";
+
+.story {
+  position: relative;
+
+  &-img-left {
+    background: url("../../../assets/img/tomato2.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 15%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  &-img-right {
+    background: url("../../../assets/img/pasta.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 15%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    p {
+      color: $secondary;
+      line-height: 25px;
+      width: 48%;
+    }
+  }
+}

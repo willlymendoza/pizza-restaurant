@@ -1,0 +1,17 @@
+.btn {
+  color: $white;
+  text-decoration: none;
+  padding: 15px;
+  background: $primary;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px solid $primary;
+  cursor: pointer;
+  @include transition-ease;
+
+  &:hover {
+    background: $white;
+    color: $primary;
+  }
+}

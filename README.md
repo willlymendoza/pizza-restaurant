@@ -16,7 +16,11 @@ This page was made for a pizza restaurant, you can check their menu, get in touc
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm install`
+
+Install the project's dependencies
+
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

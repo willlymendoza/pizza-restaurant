@@ -7,6 +7,7 @@ import Error404 from "components/Error404";
 import "./App.scss";
 import Footer from "components/Footer";
 import About from "pages/About";
+import Menu from "pages/Menu";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
+          <Route path="/menu" component={Menu} />
 
           <Route path="*" component={Error404}></Route>
         </Switch>

@@ -1,0 +1,40 @@
+@import "../../assets/sass/config";
+
+.menu {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &-nav-bar {
+    text-align: center;
+
+    &::after {
+      content: "";
+      display: block;
+      height: 2px;
+      background: $primary;
+      border-bottom: 1px solid $primary;
+      margin-top: 12px;
+      margin-bottom: 60px;
+    }
+
+    &-item {
+      color: $secondary;
+      text-transform: uppercase;
+      padding: 15px 20px;
+      cursor: pointer;
+      @include transition-ease;
+
+      &.active,
+      &:hover {
+        background: $primary;
+        color: $white;
+      }
+    }
+  }
+}

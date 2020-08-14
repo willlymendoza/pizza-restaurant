@@ -1,0 +1,54 @@
+@import "../../../assets/sass/config";
+
+.post {
+  margin-bottom: 70px;
+
+  &-img {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-title {
+    font-size: 30px;
+    color: $secondary;
+    margin-bottom: 20px;
+    cursor: pointer;
+    @include transition-ease;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  &-tags {
+    margin-bottom: 30px;
+
+    span {
+      font-size: 18px;
+      cursor: pointer;
+      color: $secondary;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+
+    &-separator {
+      border-right: 1px solid $secondary;
+      height: 4px;
+      margin: 0 10px;
+    }
+  }
+
+  p {
+    line-height: 25px;
+    color: $secondary;
+  }
+}

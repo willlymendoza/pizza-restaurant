@@ -1,0 +1,39 @@
+@import "../../../assets/sass/config";
+
+.side-bar-item {
+  display: flex;
+  margin-bottom: 50px;
+
+  &-img {
+    width: 110px;
+    margin-right: 20px;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-content {
+    &-category {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: $secondary;
+    }
+
+    &-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+      cursor: pointer;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+
+    &-date {
+      color: $primary;
+      font-weight: bold;
+    }
+  }
+}

@@ -8,6 +8,7 @@ import "./App.scss";
 import Footer from "components/Footer";
 import About from "pages/About";
 import Menu from "pages/Menu";
+import Blog from "pages/Blog";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/menu" component={Menu} />
+          <Route path="/blog" component={Blog} />
 
           <Route path="*" component={Error404}></Route>
         </Switch>

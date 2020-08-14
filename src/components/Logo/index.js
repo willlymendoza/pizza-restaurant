@@ -1,10 +1,13 @@
 import React from "react";
 import "./styles.scss";
+import { NavLink } from "react-router-dom";
 
 const Logo = () => {
   return (
     <div className="logo">
-      <i className="fas fa-pizza-slice"></i>
+      <NavLink to="/">
+        <i className="fas fa-pizza-slice"></i>
+      </NavLink>
     </div>
   );
 };

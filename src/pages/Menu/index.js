@@ -137,10 +137,10 @@ const menuAllData = [
 
 const navItems = [
   { id: 1, name: "all" },
-  { id: 1, name: "pizza" },
-  { id: 1, name: "pasta" },
-  { id: 1, name: "salads" },
-  { id: 1, name: "deserts" },
+  { id: 2, name: "pizza" },
+  { id: 3, name: "pasta" },
+  { id: 4, name: "salads" },
+  { id: 5, name: "deserts" },
 ];
 
 const Menu = () => {

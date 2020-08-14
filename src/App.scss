@@ -10,8 +10,10 @@ body,
   height: 100%;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
+body,
+input,
+textarea {
+  font-family: "Lora", sans-serif;
 }
 
 .section {
